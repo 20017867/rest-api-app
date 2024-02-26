@@ -2,6 +2,9 @@
 !jest.config.js
 node_modules
 
+# Prevent the generated schemas from being added to the repo:
+*.schema.json
+
 # CDK asset staging directory
 .cdk.staging
 cdk.out

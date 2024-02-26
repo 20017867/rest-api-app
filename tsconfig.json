@@ -27,5 +27,9 @@
   "exclude": [
     "node_modules",
     "cdk.out"
-  ]
+  ],
+  "include": [
+    //"C:/Users/Admin/Downloads/start/Assignment/shared/types.schema.json"
+    "shared/*.json"
+  ],
 }
